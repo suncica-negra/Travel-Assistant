@@ -1,0 +1,24 @@
+<%- include("partials/header"); -%>
+<div class="container">
+   <div class="row mb-3">
+      <%- include("partials/menu"); -%>
+      <div class="col-md-8 themed-grid-col data">
+         <h2>Travel Assistant</h2>
+         <p class="note">
+            List of languages
+         </p>
+         <table>
+            <tr>
+               <th>Language</th>
+            </tr>
+            <%  data.forEach(function(data){ %>
+            <tr>
+               <td><%= data.name %></td>
+            </tr>
+            <% }) %>
+         </table>
+         <a class="btn btn-secondary btn-lg btn-block" href="#vrh" role="button">Back to top</a>
+      </div>
+   </div>
+</div>
+<%- include("partials/footer"); -%>

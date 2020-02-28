@@ -1,0 +1,32 @@
+<%- include("partials/header"); -%>
+<div class="container">
+   <div class="row mb-3">
+      <%- include("partials/menu"); -%>
+      <div class="col-md-8 themed-grid-col data">
+         <h2>Travel Assistant</h2>
+         <p class="note">
+            List of airports
+         </p>
+         <table>
+            <tr>
+               <th>Airport</th>
+               <th>Country</th>
+               <th>Time Zone</th>
+            </tr>
+            <tr>
+               <td></td>
+               <td></td>
+               <td></td>
+            </tr>
+         </table>
+         <form action="/airports" method="post">
+            <button type="submit" name="button" class="btn-block margin1">Click to generate a list of airports</button>
+         </form>
+         <small>
+         Be patient. The page may be slow to load due to the large amount of data.
+         </small>
+         <%- include("partials/search"); -%>
+      </div>
+   </div>
+</div>
+<%- include("partials/footer"); -%>

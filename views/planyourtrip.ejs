@@ -1,0 +1,29 @@
+<%- include("partials/header"); -%>
+<div class="container">
+   <div class="row mb-3">
+      <%- include("partials/menu"); -%>
+      <div class="col-md-8 themed-grid-col data">
+         <h2>Travel Assistant</h2>
+         <p class="note">
+            Select an option
+         </p>
+         <input class="form-control form-control-lg" type="text" placeholder="From">
+         <input class="form-control form-control-lg" type="text" placeholder="To">
+         <div class="form-group">
+            <p>Select departure date</p>
+            <input class="datepicker" width="276" />
+            <script>
+               $('.datepicker').datepicker({
+                   uiLibrary: 'bootstrap4'
+               });
+            </script>
+         </div>
+         <div class="margin">
+            <form action="/planyourtrip" method="get">
+               <button type="submit" name="button" class="btn-block margin1">Check</button>
+            </form>
+         </div>
+      </div>
+   </div>
+</div>
+<%- include("partials/footer"); -%>

@@ -1,0 +1,32 @@
+<%- include("partials/header"); -%>
+<div class="container">
+   <div class="row mb-3">
+      <%- include("partials/menu"); -%>
+      <div class="col-md-8 themed-grid-col data">
+         <h2>Travel Assistant</h2>
+         <p class="note">
+            List of cities
+         </p>
+         <table>
+            <tr>
+               <th>City</th>
+               <th>Time Zone</th>
+               <th>UTC</th>
+               <th>Latitude</th>
+               <th>Longitude</th>
+            </tr>
+            <%  data.forEach(function(data){ %>
+            <tr>
+               <td><%= data.name %></td>
+               <td><%= data.timeZone %></td>
+               <td><%= data.UTC %></td>
+               <td><%= data.latitude.toFixed(2) %></td>
+               <td><%= data.longitude.toFixed(2) %></td>
+            </tr>
+            <% }) %>
+         </table>
+         <a class="btn btn-secondary btn-lg btn-block" href="#vrh" role="button">Back to top</a>
+      </div>
+   </div>
+</div>
+<%- include("partials/footer"); -%>
