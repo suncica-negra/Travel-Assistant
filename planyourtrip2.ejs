@@ -1,0 +1,53 @@
+<%- include("partials/header"); -%>
+<div class="container">
+   <div class="row mb-3">
+      <%- include("partials/menu"); -%>
+      <div class="col-md-8 themed-grid-col data">
+         <h2>Travel Assistant</h2>
+         <p class="note">
+            Select an option for return flight
+         </p>
+
+
+<form action="/planyourtrip2" method="post">
+
+            <div class="autocomplete">
+               <input autocomplete="off" class="form-control form-control-lg" type="text" id="myId" name="from" placeholder="From" required>
+            </div>
+
+
+
+         <div class="form-group select">
+            <p>Select departure date</p>
+            <input autocomplete="off" class="datepicker" width="276" name="date1" required/>
+            <script>
+               $('.datepicker').datepicker({
+                   uiLibrary: 'bootstrap4'
+               });
+            </script>
+         </div>
+
+
+  <div class="autocomplete">
+         <input autocomplete="off" class="form-control form-control-lg" type="text" placeholder="To" id="myId2" name="to" required>
+           </div>
+
+         
+         <div class="form-group select">
+            <p>Select a return date</p>
+            <input autocomplete="off" class="datepicker1" width="276" name="date2" required/>
+            <script>
+               $('.datepicker1').datepicker({
+                   uiLibrary: 'bootstrap4'
+               });
+            </script>
+         </div>
+         <div class="margin">
+
+               <button type="submit" name="button" class="button margin1">Save</button>
+            </form>
+         </div>
+      </div>
+   </div>
+</div>
+<%- include("partials/footer"); -%>
