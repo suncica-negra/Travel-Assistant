@@ -7,7 +7,9 @@
          <p class="note">
             Select one of the options to view the data
          </p>
-         <img class="img1" src="/slika5.jpg">
+         <% var arr = [0,1,2,3,4,5,6,7,8,9,10] %>
+         <% var randomPicture = arr[Math.floor(Math.random() * arr.length)] %>
+         <img class="img1" src="/<%= randomPicture %>.jpg">
       </div>
    </div>
 </div>

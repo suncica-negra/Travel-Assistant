@@ -3,7 +3,9 @@
       <div class="row">
          <div class="col-2 avatar">
             <a href="/" title="Home">
-            <img class="img" src="/slika3.jpg">
+            <% var arr = [0,1,2,3,4,5,6,7,8,9,10] %>
+            <% var randomPicture = arr[Math.floor(Math.random() * arr.length)] %>
+            <img class="img" src="/<%= randomPicture %>.jpg">
             </a>
          </div>
       </div>
