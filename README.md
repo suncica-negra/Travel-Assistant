@@ -1,6 +1,10 @@
 # Travel-Assistant
 Travel Assistant
 
+Koristi API za povlačenje podataka o državama, gradovima, zračnim lukama, aviokompanijama, avionima, vremenskim zonama, valutama i jezicima.
+Također preko API-ja i autocomplete search formi se može spremiti željena avionska karta.
+Aplikacija je spojena na MongoDB bazu. Može pohranjivati, pregledavati i brisati podatke iz baze.
+
 Aplikacija je funkcionalna i online je: https://travel--assistant.herokuapp.com
 
 ## NASLOVNA
