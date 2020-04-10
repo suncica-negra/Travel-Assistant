@@ -19,7 +19,7 @@ Aplikacija je funkcionalna i online je: https://travel--assistant.herokuapp.com
 
 ![alt text](https://github.com/suncica-negra/Travel-Assistant/blob/master/public/travel4.png)
 
-## PLAN TRIP
+## PLAN YOUR TRIP
 
 ![alt text](https://github.com/suncica-negra/Travel-Assistant/blob/master/public/travel5.png)
 
