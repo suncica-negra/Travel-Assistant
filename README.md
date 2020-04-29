@@ -5,6 +5,8 @@ Koristi API za povlačenje podataka o državama, gradovima, zračnim lukama, avi
 Također preko API-ja i autocomplete search formi se može spremiti željena avionska karta.
 Aplikacija je spojena na MongoDB bazu. Može pohranjivati, pregledavati i brisati podatke iz baze.
 
+Korišteni alati: **HTML, CSS, JavaScript, Node.js, Express.js, EJS, MongooDB, API**
+
 Aplikacija je funkcionalna i online je: https://travel--assistant.herokuapp.com
 
 ## NASLOVNA
