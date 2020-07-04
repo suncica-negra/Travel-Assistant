@@ -6,7 +6,7 @@ It uses the API to pull data about countries, cities, airports, airlines, planes
 
 Tools Used: **HTML, CSS, JavaScript, Node.js, Express.js, EJS, MongooDB, API**
 
-The app is functional and is online: https://travel--assistant.herokuapp.com
+The app is functional and online: https://travel--assistant.herokuapp.com
 
 ***********************************************
 
